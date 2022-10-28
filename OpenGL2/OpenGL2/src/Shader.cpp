@@ -76,7 +76,6 @@ ShaderProgramSource Shader::ParseShader(const std::string& filepath)
 		glDeleteShader(id);
 		return 0;
 	}
-
 	return id;
 }
 
